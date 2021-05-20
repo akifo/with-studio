@@ -1,0 +1,1 @@
+# studio-chrome-extension-generator
