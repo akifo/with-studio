@@ -1,1 +1,3 @@
-# studio-chrome-extension-generator
+# with-studio
+
+![with-studio-image](./image.gif)
