@@ -1,0 +1,8 @@
+{
+  "name": "with-studio",
+  "version": "0.1.1",
+  "scripts": {
+    "build": "cp -r src/ dist"
+  },
+  "author": ""
+}

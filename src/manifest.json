@@ -2,11 +2,11 @@
   "manifest_version": 2,
   "name": "with STUDIO",
   "description": "STUDIO chrome extension",
-  "version": "0.1",
+  "version": "0.1.1",
   "icons": {
-    "16": "icons/icon-inactive-16.png",
-    "48": "icons/icon-inactive-48.png",
-    "128": "icons/icon-inactive-128.png"
+    "16": "icons/studio-inactive-16.png",
+    "48": "icons/studio-inactive-48.png",
+    "128": "icons/studio-inactive-128.png"
   },
   "background": {
     "scripts": ["background.js"]
@@ -14,8 +14,8 @@
   "browser_action": {},
   "content_scripts": [
     {
-      "matches" : ["<all_urls>"],
-      "js" : ["content.js"]
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
     }
   ]
 }
