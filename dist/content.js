@@ -14,7 +14,7 @@ const generatorWhiteList = {
     chrome.runtime.sendMessage({ message, isDark });
   } else {
     const targetElement = document.getElementById('shopify-features');
-    const isShopify = typeof targetElement !== 'undefined';
+    const isShopify = targetElement != null;
     if (isShopify) message = 'Shopify';
     chrome.runtime.sendMessage({ message, isDark });
   }
